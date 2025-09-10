@@ -1,0 +1,21 @@
+[project]
+name = "learn-ai"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "beautifulsoup4>=4.13.5",
+    "dotenv>=0.9.9",
+    "ipython>=8.37.0",
+    "langchain-community>=0.3.29",
+    "langchain-deepseek>=0.1.4",
+    "langchain-huggingface>=0.3.1",
+    "langchain-openai>=0.3.32",
+    "langchain-text-splitters>=0.3.10",
+    "langchain[anthropic,openai]>=0.3.27",
+    "langgraph>=0.6.6",
+    "langsmith>=0.4.20",
+    "mesop>=1.1.0",
+    "sentence-transformers>=5.1.0",
+]
